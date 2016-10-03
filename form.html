@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="formjs.js"   ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css1.css"/>
+    <style>.button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+    }</style>
+</head>
+
+<body>
+<form>
+    <p>Name:</p>
+    <input type='text' id='NAME'/>
+
+
+
+
+    <p>Email:</p>
+    <input type='text' id='EMAIL'/>
+
+
+
+
+    <p>Contact No:</p>
+    <input type='text' id='CONTACT'/>
+
+
+
+
+    <p>Message:</p>
+    <input type='text' id='MESSAGE'/>
+
+
+
+    <input type='button' class='button' name='submit' onclick='Javascript:mail();'/>
+
+</form>
+
+
+
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
+
+
+<table>
+    <tr>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>CONTACT</th>
+        <th>Message</th>>
+
+        <tbody id='tbl-body'>
+
+        </tbody>
+    </tr>
+    =
+</table>
+
+</body>
+</html>
